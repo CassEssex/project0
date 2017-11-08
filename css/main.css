@@ -38,14 +38,11 @@ div{
 }
 
 .X {
-  background-image:url(../images/dog.png);
-  height: 70px;
-  width: 70px;
+  background-image:url(../images/dog_resize.png);
 }
 .O {
-  background-image:url(../images/fox.png);
-  height: 70px;
-  width: 70px;}
+  background-image:url(../images/fox_resize.png);
+}
 
 .sq1 {
   display:inline-block;
