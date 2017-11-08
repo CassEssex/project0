@@ -1,0 +1,109 @@
+body {
+  background-color: grey;
+  height:700px;
+}
+#wrapper{
+  width:800px;
+  margin: 0 auto;
+  border-bottom: 50px;
+
+}
+
+
+#container {
+  width: 363px;
+  overflow: auto;
+  margin: 40px auto;
+  /*position: absolute;*/
+  padding-bottom: 40px;
+  padding-top: 50px;
+  background-color: teal;
+  padding-left: 40px;
+  border-radius: 10px;
+  border: white 1em solid;
+}
+
+Header{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 5px;
+  font-size: 40px;
+  color: white;
+  width:200px;
+  padding-left: 287px;
+}
+
+div{
+  vertical-align: top;
+}
+
+.X {
+  background-image:url(../images/dog.png);
+  height: 70px;
+  width: 70px;
+}
+.O {
+  background-image:url(../images/fox.png);
+  height: 70px;
+  width: 70px;}
+
+.sq1 {
+  display:inline-block;
+  width:100px;
+  height:100px;
+  border: grey 2px solid;
+}
+
+.sq2 {
+  display:inline-block;
+  width:100px;
+  height:100px;
+  border: grey 2px solid;
+}
+
+.sq3 {
+  display:inline-block;
+  width:100px;
+  height:100px;
+  border: grey 2px solid;
+}
+.sq4 {
+  display:inline-block;
+  width:100px;
+  height:100px;
+  border: grey 2px solid;
+}
+
+.sq5 {
+  display:inline-block;
+  width:100px;
+  height:100px;
+  border: grey 2px solid;
+}
+
+.sq6 {
+  display:inline-block;
+  width:100px;
+  height:100px;
+  border: grey 2px solid;
+}
+.sq7 {
+  display:inline-block;
+  width:100px;
+  height:100px;
+  border: grey 2px solid;
+}
+
+.sq8 {
+  display:inline-block;
+  width:100px;
+  height:100px;
+  border: grey 2px solid;
+}
+
+.sq9 {
+  display:inline-block;
+  width:100px;
+  height:100px;
+  border: grey 2px solid;
+}

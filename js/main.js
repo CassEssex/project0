@@ -115,12 +115,20 @@ let gameInPlay = function () {
   }
 };
 
+const play = function (row, column) {
+  if (player1x === true) {
+    return player1(row, column);
+  } else {
+    return player2(row, column);
+  }
+}
+
 
 let player1x = true;
-const player1 = function( row, index ) {
-  if  ( player1x === true && gameBoard[row][index] === '_') {
-        console.log(gameBoard[row][index]);
-        gameBoard[row][index] = 'X';
+const player1 = function( row, column ) {
+  if  ( player1x === true && gameBoard[row][column] === '_') {
+        // console.log(gameBoard[row][column]);
+        gameBoard[row][column] = 'X';
         counter ++;
         gameWin();
         // call to function to check if game win or draw is true
@@ -131,22 +139,24 @@ const player1 = function( row, index ) {
         console.log("pick again");
   }
   console.log("Not your turn");
+  return gameBoard[row][column];
 };
 
 
-const player2 = function( row, index ) {
-  if (player1x === false && gameBoard[row][index] === '_') {
-        console.log(gameBoard[row][index]);
-        gameBoard[row][index] = 'O';
+const player2 = function( row, column ) {
+  if (player1x === false && gameBoard[row][column] === '_') {
+        // console.log(gameBoard[row][column]);
+        gameBoard[row][column] = 'O';
         counter ++;
         gameWin();
         player1x = true;
-        console.log(counter);
+        // console.log(counter);
         gameInPlay();
   } else {
         console.log("pick again");
   }
   console.log("Not your turn");
+  return gameBoard[row][column];
 };
 
 //text for player one to win
@@ -158,13 +168,13 @@ const player2 = function( row, index ) {
 // player2(1, 0);
 
 //text for a draw
-
-player1(0,0);//x
-player2(1,1);//o
-player1(2,2);//x
-player2(1,0);//o
-player1( 1,2 );//x
-player2(0 ,2 );//o
-player1(2, 0);//x
-player2(2,1);//o
-player1(0,1);//x
+//
+// player1(0,0);//x
+// player2(1,1);//o
+// player1(2,2);//x
+// player2(1,0);//o
+// player1( 1,2 );//x
+// player2(0 ,2 );//o
+// player1(2, 0);//x
+// player2(2,1);//o
+// player1(0,1);//x
