@@ -1,40 +1,93 @@
 body {
   background-color: grey;
-  height:700px;
 }
 #wrapper{
   width:800px;
   margin: 0 auto;
   border-bottom: 50px;
-
+  text-align: center;
 }
 
-
 #container {
-  width: 363px;
-  overflow: auto;
-  margin: 40px auto;
-  /*position: absolute;*/
+  width: 49%;
   padding-bottom: 40px;
-  padding-top: 50px;
+  padding-top: 30px;
   background-color: teal;
-  padding-left: 40px;
-  border-radius: 10px;
-  border: white 1em solid;
+  padding-left: 18px;
+  padding-right: 14px;
+  border-radius: 50px;
+  border: 1em solid white;
+  margin: auto;
+  vertical-align: top;
+  display:inline-block;
+}
+
+.players{
+  display:inline-block;
+  width:20%
 }
 
 Header{
-  text-align: center;
   font-family: 'Open Sans', sans-serif;
-  padding-top: 5px;
-  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-size: 50px;
   color: white;
-  width:200px;
-  padding-left: 287px;
 }
 
-div{
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #7ff7ff;
+  text-align: center;
   vertical-align: top;
+  width:10%;
+  display:inline-block;
+  margin-right: 30px;
+  border:4px solid white;
+  border-radius: 8px;
+  background-color: grey;
+}
+/*#start{
+  vertical-align: top;
+  background-color:yellow;
+  height: 48px;
+  width: 80px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: grey;
+  border-radius: 2px;
+  font-size: 30px;
+}*/
+
+.image1{
+  height: 98px;
+  width: 98px;
+  background-image:url(../images/dog_resize.png);
+  border-top: 15px;
+  margin: 20px;
+  display:block;
+  border-radius: 10px;
+}
+
+.image2{
+  height: 98px;
+  width: 98px;
+  background-image:url(../images/fox_resize.png);
+  border-top: 15px;
+  margin:20px;
+  display:block;
+  border-radius: 10px;
+}
+
+.image3{
+  display: none;
+  background-image:url(../images/pub3.jpg);
+  width: 800px;
+  height: 555px;
+  border-radius: 10px;
+  /*display: inline-block;*/
 }
 
 .X {
@@ -44,63 +97,87 @@ div{
   background-image:url(../images/fox_resize.png);
 }
 
+#dogwinner{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+#foxwinner{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+#draw{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: top;
+}
+
 .sq1 {
   display:inline-block;
   width:100px;
   height:100px;
-  border: grey 2px solid;
+  border: grey 4px solid;
+
 }
 
 .sq2 {
   display:inline-block;
   width:100px;
   height:100px;
-  border: grey 2px solid;
+  border: grey 4px solid;
 }
 
 .sq3 {
   display:inline-block;
   width:100px;
   height:100px;
-  border: grey 2px solid;
+  border: grey 4px solid;
 }
 .sq4 {
   display:inline-block;
   width:100px;
   height:100px;
-  border: grey 2px solid;
+  border: grey 4px solid;
 }
 
 .sq5 {
   display:inline-block;
   width:100px;
   height:100px;
-  border: grey 2px solid;
+  border: grey 4px solid;
 }
 
 .sq6 {
   display:inline-block;
   width:100px;
   height:100px;
-  border: grey 2px solid;
+  border: grey 4px solid;
 }
 .sq7 {
   display:inline-block;
   width:100px;
   height:100px;
-  border: grey 2px solid;
+  border: grey 4px solid;
 }
 
 .sq8 {
   display:inline-block;
   width:100px;
   height:100px;
-  border: grey 2px solid;
+  border: grey 4px solid;
 }
 
 .sq9 {
   display:inline-block;
   width:100px;
   height:100px;
-  border: grey 2px solid;
+  border: grey 4px solid;
 }

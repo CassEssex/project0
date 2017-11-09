@@ -106,12 +106,15 @@ gameWin();
 let gameInPlay = function () {
   if    (gameWinX === true) {
         player1x = true;
-        console.log("Player 1 is the winner");
+        // alert("The Dog caught the Hound!")
+        // console.log("Player 1 is the winner");
   } if  (gameWinO === true) {
         player1x = false;
-        console.log("Player 2 is the winner");
+        // alert("The Hound got away!")
+        // console.log("Player 2 is the winner");
   } if (draw === true) {
-        console.log('Its a draw');
+        // alert("Its a draw")
+        // console.log('Its a draw');
   }
 };
 
