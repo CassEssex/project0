@@ -19,7 +19,10 @@ $(document).ready(function() {
         $(".O").fadeTo("slow", 0.2);
         $(".image2").fadeTo("slow", 0.2);
         $("#dogwinner").html("<p>The Dog caught the Hound!</p>");
-        window.location.reload(true);
+        $(".restart_game").show("slow", 0.);
+        $(".restart_game").on('click', function() {
+        window.location.reload(true)
+      });
 
 
   } if  (gameWinO === true) {
@@ -28,6 +31,10 @@ $(document).ready(function() {
         $(".X").fadeTo("slow", 0.2);
         $(".image1").fadeTo("slow", 0.2);
         $("#foxwinner").html("<p>The Fox got away!!</p>");
+        $(".restart_game").show("slow", 0.);
+        $(".restart_game").on('click', function() {
+        window.location.reload(true)
+      });
 
   } if (draw === true) {
         // alert("Its a draw")
@@ -36,6 +43,10 @@ $(document).ready(function() {
         $(".image2").hide();
         $(".image3").fadeTo("slow", 1);
         $("#draw").html("<p>Its a draw lets go to the pub!</p>");
+        $(".restart_game").show("slow", 0.);
+        $(".restart_game").on('click', function() {
+        window.location.reload(true)
+      });
         // console.log('Its a draw');
   }
 
